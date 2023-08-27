@@ -978,7 +978,7 @@ footer p span {
 
 footer .wave {
     position: absolute;
-    top: -100px;
+    top: -99 px;
     left: 0;
     width: 100%;
     height: 100px;
@@ -1137,7 +1137,7 @@ footer .wave#wave4 {
 
 
     .mobile-nav a {
-        color: #f97822;
+        color: #fff;
         font-size: 1.35rem;
         font-weight: 500;
         padding: 5px 0;
@@ -1150,7 +1150,7 @@ footer .wave#wave4 {
     }
 
     .mobile-nav a.active {
-        color: #57d868;
+        color: #fff;
     }
 
     .main {
@@ -1179,7 +1179,7 @@ footer .wave#wave4 {
     .mobile-nav a {
         padding: 5px 0;
         margin: 0px 20px;
-        font-size: 1.3em;
+        font-size: 1.7em;
     }
 
 
@@ -1276,6 +1276,7 @@ footer .wave#wave4 {
         padding: 5px 0;
         margin: 0px 20px;
         font-size: 1em;
+        backdrop-filter: blur(18px);
     }
 
 
@@ -1303,11 +1304,11 @@ footer .wave#wave4 {
         right: 100%;
         width: 260px;
         height: 18rem;
-        backdrop-filter: blur(18px);
+        background: radial-gradient(#18a7d2, #a14d97);
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        border-radius: 10px;
+        border-radius: 30px;
         transition: all .50s ease;
     }
 
@@ -1322,13 +1323,13 @@ footer .wave#wave4 {
 
 
     .mobile-nav a:hover {
-        color: #f97822;
+        color: #3fba0e;
         transform: translateY(5px);
     }
 
 
     .mobile-nav a.active {
-        color: #f97822;
+        color: #fff;
     }
 
 

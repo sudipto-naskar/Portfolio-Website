@@ -61,27 +61,33 @@
                         <span class="iconapp"><ion-icon name="mail-unread"></ion-icon></span>
                         <span class="title"><a href="mailto:sudiptonaskar123@gmail.com">Mail</a></span>
                     </li>
-                    <li style="--i:#FF9966;--j:#FF5E62;">
-                        <span class="iconapp"><ion-icon name="logo-instagram"></ion-icon></span>
-                        <span class="title"><a
-                                href="https://instagram.com/ig_itz_dexter?igshid=MmU2YjMzNjRlOQ==">Instagram</a></span>
-                    </li>
-                </ul>
-                <ul class="mobile-nav">
-                    <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#about-me">About</a></li>
-                    <li><a href="#skillset">Skillset</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact-me">Contact Me</a></li>
                 </ul>
 
-                <div class="main">
-                    <div class="bx bx-menu" id="menu-icon"></div>
-                </div>
+                <header class="mobile">
+                    <a class="logo">Logo</a>
+
+                <input type="checkbox" id="check">
+                <label for="check" class="icons">
+                    <i class='bx bx-menu' id="menu-icon"></i>
+                    <i class='bx bx-x' id="close-icon"></i>
+                </label>
+
+                <ul class="mobile-nav">
+                    <a href="#home" class="active" style="--i:0;">Home</a>
+                    <a href="#about-me" style="--i:1;">About Me</a>
+                    <a href="#skillset" style="--i:2;">Skillset</a>
+                    <a href="#projects" style="--i:3;">Projects</a>
+                    <a href="#contact-me" style="--i:4;">Contact Me</a>
+                </ul>
+                </header>
+
             </div>
         </nav>
     </header>
     <main>
+
+        <!-- ABOUT SECTION CODE -->
+
         <section class="firstsection hidden" id="home">
             <div class="leftsection">
                 <font class="hero-txt">HI! I am</font>
@@ -126,6 +132,10 @@
                 </div>
             </div>
         </section>
+
+        <!-- END OF ABOUT SECTION CODE -->
+
+        <!-- SKILL SECTION CODE -->
 
         <section class="hidden" id="skillset">
             <h1>These are my <span>Skillset</span></h1>
@@ -193,6 +203,10 @@
                 </div>
             </div>
         </section>
+
+        <!-- END OF SKILL SECTION CODE -->
+
+        <!-- PROJECT SECTION CODE -->
 
         <section class="hidden" id="projects">
             <h1>My Works</h1>
@@ -280,6 +294,10 @@
                 </div>
         </section>
 
+        <!-- END OF PROJECT SECTION CODE -->
+
+        <!-- CONTACT-ME SECTION CODE -->
+
         <section id="contact-me">
             <div class="container hidden">
                 <div class="item">
@@ -293,7 +311,8 @@
                             <ul class="social-media">
                                 <li><a href="https://github.com/sudipto-naskar"><i class='bx bxl-github'></i></a></li>
                                 <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/sudipto-naskar/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bda%2BDn9UdTryXFEGcpBY6iw%3D%3D"><i class='bx bxl-linkedin'></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/sudipto-naskar/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bda%2BDn9UdTryXFEGcpBY6iw%3D%3D"><i
+                                class='bx bxl-linkedin'></i></a></li>
                                 <li><a href="https://discord.gg/YuC66N3vvp"><i class='bx bxl-discord'></i></a></li>
                             </ul>
                         </div>
@@ -324,6 +343,10 @@
             </div>
         </section>
 
+        <!-- END OF CONTACT-ME SECTION CODE -->
+
+        <!-- FOOTER SECTION CODE -->
+
         <section>
             <footer>
                 <div class="waves">
@@ -335,7 +358,9 @@
                 <ul class="social_icon">
                     <li><a href="https://github.com/sudipto-naskar"><ion-icon name="logo-github"></ion-icon>
                         </a></li>
-                    <li><a href="https://www.linkedin.com/in/sudipto-naskar/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bda%2BDn9UdTryXFEGcpBY6iw%3D%3D"><ion-icon name="logo-linkedin"></ion-icon>
+                    <li><a
+                            href="https://www.linkedin.com/in/sudipto-naskar/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bda%2BDn9UdTryXFEGcpBY6iw%3D%3D"><ion-icon
+                                name="logo-linkedin"></ion-icon>
                         </a></li>
                     <li><a href="#"><ion-icon name="logo-twitter"></ion-icon>
                         </a></li>
@@ -345,6 +370,8 @@
                 </p>
             </footer>
         </section>
+
+        <!-- END OF FOOTER SECTION CODE -->
 
     </main>
 

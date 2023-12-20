@@ -1448,7 +1448,7 @@ footer .wave#wave4 {
         top: 100%;
         left: -80px; 
         width: 100%;
-        height: 0;
+        height: 20px;
         background: rgba(0, 0, 0, -1);
         backdrop-filter: blur(50px);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, -1);
@@ -1458,13 +1458,13 @@ footer .wave#wave4 {
     }
 
     #check:checked~.mobile-nav {
-        height: 14rem;
+        height: 17rem;
     }
 
     .mobile-nav a {
         display: block;
         font-size: 1.4rem;
-        margin: 1rem 0;
+        margin: 1.5rem 0;
         text-align: center;
         transform: translateY(-50px);
         opacity: 0;

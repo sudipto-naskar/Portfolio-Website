@@ -1116,20 +1116,20 @@ footer .wave#wave4 {
 
     .mobile {
         position: fixed;
-        top: -1px;
+        top: 5px;
         left: -11px;
         width: 100%;
-        padding: 1rem;
+        padding: 2rem 0 0 0;
         display: flex;
         justify-content: center;
         align-items: center;
         z-index: 100;
         /*backdrop-filter: blur(20px);*/
         transition: 0.5s ease;
-        background: linear-gradient(transparent, rgba(255, 255, 255, .2), transparent);
+        background: linear-gradient(transparent, rgba(155, 255, 255, .1), transparent);
     }
 
-    .mobile-nav a:active{
+    .mobile:active{
         transform: translateY(50px)
     }
 
@@ -1169,7 +1169,10 @@ footer .wave#wave4 {
         text-decoration: none;
         font-weight: 500;
         margin-left: 2.5rem;
+    }
 
+    .mobile-nav a:hover{
+        color: #7957d8;
     }
 
 
@@ -1445,26 +1448,27 @@ footer .wave#wave4 {
 
     .mobile-nav {
         position: absolute;
-        top: 100%;
+        top: -21px;
         left: -80px; 
         width: 100%;
-        height: 20px;
+        height: 0;
         background: rgba(0, 0, 0, -1);
         backdrop-filter: blur(50px);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, -1);
         overflow: hidden;
         transition: .3s ease;
         display: inline;
+        z-index: -1;
     }
 
     #check:checked~.mobile-nav {
-        height: 17rem;
+        height: 20rem;
     }
 
     .mobile-nav a {
         display: block;
         font-size: 1.4rem;
-        margin: 1.5rem 0;
+        margin: 2rem 0;
         text-align: center;
         transform: translateY(-50px);
         opacity: 0;

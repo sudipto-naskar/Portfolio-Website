@@ -83,7 +83,7 @@ body {
     transition: 0.5s;
     filter: blur(15px);
     z-index: -1;
-    opacity: 0;
+    opacity: 2;
 }
 
 
@@ -1172,7 +1172,7 @@ footer .wave#wave4 {
     }
 
     .mobile-nav a:hover{
-        color: #7957d8;
+        color: #57d88f;
     }
 
 
